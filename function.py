@@ -8,7 +8,7 @@ def isEven(x):
 
 # Ask user to enter a number
 print("Input a number:")
-my_number = input()
+my_number = int(input())
 
 if isEven(my_number):
    print("The number is even")
